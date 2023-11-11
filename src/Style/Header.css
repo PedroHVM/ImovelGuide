@@ -1,35 +1,65 @@
-
 .header {
-    background-color: var(--blue);
-    display: flex;
-    flex-direction: row;
-    gap: 70px;
-    justify-content: space-around;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: space-around;
+  padding: 20px;
+  height: 60px;
 }
 
 .navigate {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
 }
 
-.header h1 {
-    color: var(--white);
+.navigate span {
+  color: var(--white);
+}
+.navigate img {
+  cursor: pointer;
 }
 
-.options_list{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap: 20px;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
+.logo {
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
-.options_list li{
-    color: var(--white);
-    cursor: pointer;
+.options_list {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  align-items: center;
+}
+
+.options_list li {
+  color: var(--white);
+  cursor: pointer;
+}
+
+.options_list button {
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 8px 16px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border-radius: 20px;
+}
+.options_list button:hover {
+  background-color: var(--white);
+  color: #000;
+}
+
+.footer {
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  justify-content: space-around;
+  padding: 20px;
 }

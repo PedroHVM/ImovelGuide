@@ -7,7 +7,8 @@ const Header = () => {
     return (
         <header className='header'>
             <div className='navigate'>
-                <h1 className='logo'>IMÓVEL <br /> GUIDE </h1>
+                    <img src="/src/images/ImoGuide_logomarca.png" alt="Imovel guide logo" />
+                    <h2 className='logo'>IMÓVEL <br /> GUIDE </h2>
                 <nav>
                     <ul className='options_list'>
                         <li>Condomínios</li>

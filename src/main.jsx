@@ -1,13 +1,24 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Header from './components/header.tsx'
-import Phone from './components/phone.tsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import Header from "./components/header.tsx";
+import Phone from "./components/phone.tsx";
+import Cpf from "./components/cpf.tsx";
+import RegraDeTres from "./components/regraDeTres.tsx";
+import ModalImage from "./components/modal_image.tsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Header />
-    <Phone />
-    
-  </React.StrictMode>,
-)
+    <header>
+      <Header />
+    </header>
+    <div className="exercises">
+      <Phone />
+      <Cpf />
+      <RegraDeTres />
+      <ModalImage />
+      
+    </div>
+  </React.StrictMode>
+);

@@ -15,3 +15,7 @@
 }
 
 
+.exercises {
+  display: flex;
+  flex-wrap: wrap; 
+}

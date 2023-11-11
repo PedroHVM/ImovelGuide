@@ -1,0 +1,143 @@
+:root {
+  --orange: #fe6613;
+  --gray: #787878;
+  --blue: #1b2653;
+  --white: #fdfeff;
+}
+
+.container {
+  display: flex;
+  margin: 100px;
+  color: var(--blue);
+}
+
+.profile {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  
+}
+
+.profile img {
+  width: 45%;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.profile ul {
+  list-style: none;
+}
+
+.profile a {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.profile p {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.box {
+  margin-left: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.options {
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.options h1 {
+  color: var(--blue);
+}
+
+.options input {
+  width: 70%;
+  height: 30px;
+  border-radius: 5px;
+  color: var(--blue);
+  padding: 5px;
+}
+
+.options button {
+  width: 50%;
+  cursor: pointer;
+  color: var(--white);
+  border: 1px solid var(--orange);
+  padding: 8px 16px;
+  background-color: var(--orange);
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+.calculo button {
+  width: 50%;
+  cursor: pointer;
+  color: var(--white);
+  border: 1px solid var(--orange);
+  padding: 8px 16px;
+  background-color: var(--orange);
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+}
+
+.calculo {
+  margin-left: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.numbers {
+  display: flex;
+}
+
+.number input {
+  border-radius: 15px;
+  border: 2px solid var(--gray);
+  width: auto;
+  height: 40px;
+  padding: 10px;
+}
+
+.number_2 input {
+  border-radius: 15px;
+  border: 2px solid var(--gray);
+  width: auto;
+  height: 40px;
+  padding: 10px;
+}
+
+.number_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.number_2 input:nth-child(2) {
+  border-color: var(--orange);
+}
+
+.number {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
