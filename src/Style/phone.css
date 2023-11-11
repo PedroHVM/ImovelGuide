@@ -1,0 +1,45 @@
+:root {
+  --orange: #fe6613;
+  --gray: #787878;
+  --blue: #1b2653;
+  --white: #fdfeff;
+}
+
+.container {
+  display: flex;
+  margin: 100px;
+}
+
+.profile {
+  margin: 10px;
+  display: flex;
+  align-items: center;  
+  text-align: left;
+  gap: 10px;
+}
+
+.profile img {
+    width: 45%;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.profile ul {
+  list-style: none;
+}
+
+.profile a {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.profile p {
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.box {
+  margin-left: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}

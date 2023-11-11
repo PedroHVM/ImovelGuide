@@ -1,0 +1,35 @@
+
+.header {
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: space-around;
+}
+
+.navigate {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: var(--white);
+}
+
+.options_list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.options_list li{
+    color: var(--white);
+    cursor: pointer;
+}
