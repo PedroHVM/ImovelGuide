@@ -4,6 +4,8 @@ import '../Style/content.css';
 const Phone = () => {
   const [mostrarTelefone1, setMostrarTelefone1] = useState(false);
   const [mostrarTelefone2, setMostrarTelefone2] = useState(false);
+  const [telefone1, setTelefone1] = useState(null);
+  const [telefone2, setTelefone2] = useState(null);
 
   const gerarNumeroAleatorio = () => {
     const gerarDigito = () => Math.floor(Math.random() * 10);
@@ -21,10 +23,18 @@ const Phone = () => {
   };
 
   const handleClick1 = () => {
+    if (!telefone1) {
+      const novoTelefone = gerarNumeroAleatorio();
+      setTelefone1(novoTelefone);
+    }
     setMostrarTelefone1(true);
   };
 
   const handleClick2 = () => {
+    if (!telefone2) {
+      const novoTelefone = gerarNumeroAleatorio();
+      setTelefone2(novoTelefone);
+    }
     setMostrarTelefone2(true);
   };
 
@@ -38,7 +48,7 @@ const Phone = () => {
             <h1>Pedro Malheiros</h1>
             <li>3.000 pontos</li>
             <a href="#" onClick={handleClick1}>
-              {mostrarTelefone1 ? formatarTelefone(gerarNumeroAleatorio()) : 'Ver telefone'}
+              {mostrarTelefone1 ? formatarTelefone(telefone1) : 'Ver telefone'}
             </a>
           </ul>
         </div>
@@ -48,7 +58,7 @@ const Phone = () => {
             <h1>Lorena Paiva</h1>
             <li>1.260 pontos</li>
             <a href="#" onClick={handleClick2}>
-              {mostrarTelefone2 ? formatarTelefone(gerarNumeroAleatorio()) : 'Ver telefone'}
+              {mostrarTelefone2 ? formatarTelefone(telefone2) : 'Ver telefone'}
             </a>
           </ul>
         </div>
