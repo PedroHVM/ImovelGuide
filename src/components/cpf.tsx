@@ -41,7 +41,7 @@ const Cpf = () => {
   };
 
   const handleEnviarMensagemClick = () => {
-   
+
     alert('Mensagem enviada!');
   };
 
@@ -50,19 +50,21 @@ const Cpf = () => {
       <span>2</span>
       <div className="options">
         <h1>Mande uma mensagem:</h1>
-        <input
-          type="text"
-          placeholder="Digite seu CPF"
-          value={cpf}
-          onChange={handleCpfChange}
-        />
-        <input
-          type="tel"
-          placeholder="Digite seu telefone"
-          value={telefone}
-          onChange={handleTelefoneChange}
-        />
-        <input type="text" placeholder="Digite o assunto" />
+        
+          <input
+            type="text"
+            placeholder="Digite seu CPF"
+            value={cpf}
+            onChange={handleCpfChange}
+          />
+          <input
+            type="tel"
+            placeholder="Digite seu telefone"
+            value={telefone}
+            onChange={handleTelefoneChange}
+          />
+          <input type="text" placeholder="Digite o assunto"/>
+        
         <button onClick={handleEnviarMensagemClick}>Enviar Mensagem</button>
       </div>
     </div>

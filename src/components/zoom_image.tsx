@@ -23,7 +23,7 @@ const Zoom = () => {
         <div className='box_zoom'>
             <span>6</span>
             <div >
-                <img src='/src/images/corretor_2.webp' alt='Mansão' style={{ transform: `scale(${zoomLevel})` }}/>
+                <img src='/src/images/mansao.jpg' alt='Mansão' style={{ transform: `scale(${zoomLevel})` }}/>
             </div>
 
         </div>
