@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className={`header ${showMenu ? 'mobile-menu' : ''}`}>
       <div className='navigate'>
-        <img src="/src/images/ImoGuide_logomarca.png" alt="Imovel guide logo" />
+        <img src="https://photos.google.com/photo/AF1QipNIC7Ll_DvNKiu2Oz2KmCnlP2itzSQqCxXWYwQC" alt="Imovel guide logo" />
         <h2 className='logo'>IMÓVEL <br /> GUIDE </h2>
         <nav className={`desktop-menu ${showMenu ? 'hidden' : ''}`}>
           <ul className='options_list'>

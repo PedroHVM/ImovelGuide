@@ -43,7 +43,7 @@ const Phone = () => {
       <span>1</span>
       <div className="box">
         <div className="profile">
-          <img src="/src/images/Corretor.JPG" alt="Imagem de um corretor" />
+          <img src="https://photos.google.com/photo/AF1QipP1mj4ADUE1tN3WjyN_jZZoDRJ7txtWxMS0gASx" alt="Imagem de um corretor" />
           <ul>
             <h1>Pedro Malheiros</h1>
             <li>3.000 pontos</li>
@@ -53,7 +53,7 @@ const Phone = () => {
           </ul>
         </div>
         <div className="profile">
-          <img src="/src/images/Corretora.JPG" alt="Imagem de um corretor" />
+          <img src="https://photos.google.com/photo/AF1QipNE8Ylnq6MZT0bJccH6o1UY47_ZG_aW12FZY4-h" alt="Imagem de um corretor" />
           <ul>
             <h1>Lorena Paiva</h1>
             <li>1.260 pontos</li>

@@ -7,7 +7,7 @@ const Zoom = () => {
         <div className='box_zoom'>
             <span>6</span>
             <div >
-                <img src='/src/images/mansao.jpg' alt='Mansão'/>
+                <img src='https://photos.google.com/photo/AF1QipNczst9Wybf3E51udEEWHyxpxHjlOjhqrM5QVnZ' alt='Mansão'/>
             </div>
 
         </div>

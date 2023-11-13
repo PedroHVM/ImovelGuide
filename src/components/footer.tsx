@@ -18,7 +18,7 @@ const Footer = () => {
             <div className='navigation'>
                 <span>© Copyright 2022. Todos os direitos reservados.</span>
 
-                <img src="/src/images/ImoGuide_logomarca.png" alt="Imovel guide logo" />
+                <img src="https://photos.google.com/photo/AF1QipNIC7Ll_DvNKiu2Oz2KmCnlP2itzSQqCxXWYwQC" alt="Imovel guide logo" />
                 <h2 className='logo'>IMÓVEL <br /> GUIDE </h2>
             </div>
         </footer>
