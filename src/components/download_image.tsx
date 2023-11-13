@@ -26,7 +26,7 @@ const Download = () => {
                 Imóvel Guide
                 </p>
           </section>
-          <img src="/src/images/mansao.jpg" alt="Mansão" />
+          <img src="/src/images/mansao.svg" alt="Mansão" />
           <div className='overlay'>
             <button className='download_image' onClick={handleDownload}>
               Download
