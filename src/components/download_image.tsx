@@ -1,23 +1,42 @@
-import React from "react";
+import React, { useRef } from "react";
+import html2canvas from "html2canvas";
+import '../Style/content.css'
 
 const Download = () => {
-    return(
-        <div className='container'>
-            <span>
-                5
-            </span>
-            <div>
-                <div className='box_modal'>
-                    <img src="/src/images/mansao.jpg" alt="Mansão" />
+  const containerRef = useRef(null);
 
-                    <button className='open_image' >
-                        Download
-                    </button>
-                </div>
-            </div>
-            
+  const handleDownload = () => {
+    html2canvas(containerRef.current).then((canvas) => {
+      const link = document.createElement("a");
+      link.href = canvas.toDataURL("image/png");
+      link.download = "downloaded_image.png";
+      link.click();
+    });
+  };
+
+  return (
+    <div className='container' ref={containerRef}>
+      <span>
+        5
+      </span>
+      <div>
+        <div className='box_modal'>
+            <section>
+                <p>
+                Imóvel Guide
+                </p>
+          </section>
+          <img src="/src/images/mansao.jpg" alt="Mansão" />
+          <div className='overlay'>
+            <button className='download_image' onClick={handleDownload}>
+              Download
+            </button>
+          </div>
         </div>
-    );
+      </div>
+      
+    </div>
+  );
 };
 
 export default Download;

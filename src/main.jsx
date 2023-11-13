@@ -7,6 +7,7 @@ import RegraDeTres from "./components/regraDeTres.tsx";
 import ModalImage from "./components/modal_image.tsx";
 import Download from "./components/download_image.tsx";
 import Zoom from "./components/zoom_image.tsx";
+import Footer from "./components/footer.tsx";
 
 import "./index.css";
 
@@ -21,6 +22,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Download />
       <Zoom />
     </div>
+    <Footer />
   </React.StrictMode>
 );
- 
