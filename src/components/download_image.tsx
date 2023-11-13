@@ -26,7 +26,7 @@ const Download = () => {
                 Imóvel Guide
                 </p>
           </section>
-          <img src="https://photos.google.com/photo/AF1QipNczst9Wybf3E51udEEWHyxpxHjlOjhqrM5QVnZ" alt="Mansão" />
+          <img src="https://cdn.uso.com.br/34392/2023/03/2f0a3004c192bb2f9dd6dce80361121d.jpg" alt="Mansão" />
           <div className='overlay'>
             <button className='download_image' onClick={handleDownload}>
               Download

@@ -43,7 +43,7 @@ const Phone = () => {
       <span>1</span>
       <div className="box">
         <div className="profile">
-          <img src="https://photos.google.com/photo/AF1QipP1mj4ADUE1tN3WjyN_jZZoDRJ7txtWxMS0gASx" alt="Imagem de um corretor" />
+          <img src="https://292aa00292a014763d1b-96a84504aed2b25fc1239be8d2b61736.ssl.cf1.rackcdn.com/PostImagem/22811/5-fatores-que-influenciam-para-o-seu-perfil-no-linkedin_abradilan-20-anos-62_capa_3.jpg" alt="Imagem de um corretor" />
           <ul>
             <h1>Pedro Malheiros</h1>
             <li>3.000 pontos</li>
@@ -53,7 +53,7 @@ const Phone = () => {
           </ul>
         </div>
         <div className="profile">
-          <img src="https://photos.google.com/photo/AF1QipNE8Ylnq6MZT0bJccH6o1UY47_ZG_aW12FZY4-h" alt="Imagem de um corretor" />
+          <img src="https://evorastudio.com.br/wp-content/uploads/2022/04/retrato-corporativo-foto-perfil-profissional-foto-linkedin-63am-scaled.jpg" alt="Imagem de um corretor" />
           <ul>
             <h1>Lorena Paiva</h1>
             <li>1.260 pontos</li>

@@ -19,7 +19,7 @@ const ModalImage = () => {
             </span>
             <div>
                 <div className='box_modal'>
-                    <img src="/src/images/mansao.jpg" alt="Mansão" />
+                    <img src="https://cdn.uso.com.br/34392/2023/03/2f0a3004c192bb2f9dd6dce80361121d.jpg" alt="Mansão" />
 
                     <button className='open_image' onClick={openModal}>
                         ABRIR IMAGEM NO MODAL
@@ -29,7 +29,7 @@ const ModalImage = () => {
             {modalVisible && (
                 <div className='modal-overlay' onClick={closeModal}>
                     <div className='modal'>
-                        <img src="https://photos.google.com/photo/AF1QipNczst9Wybf3E51udEEWHyxpxHjlOjhqrM5QVnZ" alt="Mansão" />
+                        <img src="https://cdn.uso.com.br/34392/2023/03/2f0a3004c192bb2f9dd6dce80361121d.jpg" alt="Mansão" />
 
                         <button className='close_modal' onClick={closeModal}>
                             FECHAR MODAL
