@@ -2,7 +2,7 @@
 .box_zoom {
     text-align: center;
     overflow: hidden; 
-    margin: 40px;
+    margin: 20px;
     display: flex;
     color: var(--blue);
     gap: 10px;

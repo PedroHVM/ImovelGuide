@@ -7,10 +7,10 @@
 
 .container {
   display: flex;
-  margin: 40px;
+  flex-wrap: wrap;
+  margin: 20px;
   color: var(--blue);
   gap: 10px;
-  
 }
 
 .container span {
@@ -19,14 +19,16 @@
 
 .profile {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  text-align: left;
+  text-align: center;
   gap: 10px;
 }
 
 .profile img {
-  width: 150px;
-  height: 150px;
+  width: 100%; 
+  max-width: 150px; 
+  height: auto; 
   border: 1px solid #000;
   border-radius: 4px;
 }
@@ -44,6 +46,7 @@
   color: var(--orange);
   font-weight: bold;
 }
+
 
 .box {
   width: 450px;
@@ -163,7 +166,6 @@
 
 .box_modal img {
   width: 450px;  
-  height: 350px;
   border-radius: 5px; 
 }
 
@@ -200,7 +202,7 @@
   background-color: var(--orange);
   outline: none;
   border-radius: 5px;
-  width: 250px;
+  width: 210px;
   
 }
 
@@ -246,4 +248,25 @@
 
 .spacer {
   margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .box,
+  .options,
+  .calculo,
+  .numbers,
+  .number,
+  .number_2,
+  .box_modal {
+    width: 100%; /* Faça com que esses elementos ocupem toda a largura em telas menores */
+  }
+
+  .options input,
+  .options button,
+  .calculo button,
+  .download_image,
+  .open_image,
+  .close_modal {
+    width: 100%; /* Faça com que esses elementos ocupem toda a largura em telas menores */
+  }
 }
