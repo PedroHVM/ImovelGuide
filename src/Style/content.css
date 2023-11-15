@@ -34,6 +34,9 @@
 }
 
 .profile ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
   list-style: none;
 }
 
